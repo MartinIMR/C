@@ -1,6 +1,5 @@
 #include <stdio.h>
-#ifndef ecuacion
-#define ecuacion
+
 typedef struct
 {
  float ccuadratico;
@@ -34,6 +33,6 @@ RAICES resolver(ECUACION e);
 
 
 
-#endif
+
 
 
