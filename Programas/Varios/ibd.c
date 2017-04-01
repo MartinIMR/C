@@ -1,3 +1,4 @@
+/*Intento de creador de archivos como si fuera una base de datos */ 
 #include <stdio.h>
 #include <stdlib.h>
 

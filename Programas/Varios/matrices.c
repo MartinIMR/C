@@ -1,3 +1,4 @@
+/*Programa que crea y suma matrices */
 #include <stdio.h>
 #include <stdlib.h>
 
