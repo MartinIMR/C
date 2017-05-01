@@ -12,7 +12,7 @@ typedef struct
   Nodo_Pila *tope;
 } Pila;
 
-typedef Pila PILA;
+typedef Pila * PILA;
 
 PILA crearPila ();
 Nodo_Pila *crearNodoPila ();
