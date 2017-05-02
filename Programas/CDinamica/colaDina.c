@@ -1,4 +1,5 @@
 #include "colaDina.h"
+#include <stdio.h>
 #include <stdlib.h>
 
 void
@@ -59,7 +60,7 @@ crearNodoCola ()
 };
 
 int
-esVaciaCola (COLA C)
+esColaVacia (COLA C)
 {
   if (C->primero == NULL && C->ultimo == NULL)
     {
@@ -105,7 +106,7 @@ encolar (COLA C, int e)
 };
 
 int
-desencolar (COLA)
+desencolar (COLA C)
 {
   int v;
   Nodo_Cola *nc;

@@ -1,7 +1,5 @@
 #define TRUE 1
 #define FALSE 0
-#ifndef colaD
-#define colaD
 
 typedef struct Nodo_Cola
 {
@@ -16,11 +14,11 @@ typedef struct
   Nodo_Cola *ultimo;
 } Cola;
 
-typedef Cola COLA;
+typedef Cola * COLA;
 
 COLA crearCola ();
 Nodo_Cola *crearNodoCola ();
-int esVaciaCola (COLA);
+int esColaVacia (COLA);
 int primero (COLA);
 void encolar (COLA, int);
 int desencolar (COLA);
